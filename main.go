@@ -25,3 +25,12 @@ func main() {
 	_, e := strconv.Atoi("wat")
 	fmt.Println(e)
 }
+
+// output :
+
+// 1.234
+// 123
+// 456
+// 789
+// 135
+// strconv.ParseInt: parsing "wat": invalid syntax
